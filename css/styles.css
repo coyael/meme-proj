@@ -1,0 +1,14 @@
+/*SETUP*/
+@import '/css/setup/typography.css';
+@import '/css/setup/vars.css';
+
+/*COMPOPNENT*/
+@import '/css/compopnent/main-header.css';
+@import '/css/compopnent/main-editor.css';
+@import '/css/compopnent/main-gallery.css';
+
+/*BASE*/
+@import '/css/basic/base.css';
+@import '/css/basic/helpers.css';
+@import '/css/basic/layour.css';
+@import '/css/basic/mq.css';

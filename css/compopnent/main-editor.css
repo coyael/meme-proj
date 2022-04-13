@@ -1,0 +1,53 @@
+
+.controler-container{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(6,1fr);
+}
+
+.txt-meme{
+    grid-column: 1/-1;
+}
+.up-down-line{
+    grid-row:2 ;
+    grid-column: 2;
+}
+.add-line{
+    grid-row: 2;
+    grid-column: 3;
+}
+.trash-line{
+    grid-row: 2;
+    grid-column: 4;
+}
+.increase-font{
+    grid-row:3;
+}
+.decrease-font{
+    grid-row: 3;
+    grid-column: 2;
+}
+.align-line-left{
+    grid-row: 3;
+    grid-column: 3;
+}
+.align-line-center{
+    grid-row: 3;
+    grid-column: 4;
+}
+.align-line-right{
+    grid-row: 3;
+    grid-column: 5;
+}
+.font-color{
+    grid-row: 4;
+    grid-column: 5;
+}
+.download-meme{
+    grid-row: 5;
+    grid-column: 1/3;
+}
+.share-meme{
+    grid-row: 5;
+    grid-column: 3/5;
+}

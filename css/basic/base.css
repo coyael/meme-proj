@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Montserrat-Regular;
+    color: var(--clr1);
+}
+
+body{
+    margin:0;
+}
+
+ul{
+    gap:20px
+}
+li{
+    list-style-type: none;
+}
+
+a {
+    color: var(--clr1);
+    text-decoration: none;
+    color: unset;
+}
+
+.controler-container img{
+    width: 19.5px;
+    height: 19.5px;
+    object-fit: cover;
+}
